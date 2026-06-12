@@ -1,0 +1,205 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed El Badawi - IT Specialist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#165DFF',
+                        secondary: '#36CFC9',
+                        dark: '#1D2129',
+                        light: '#F2F3F5',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .section-border {
+                @apply border-l-4 border-primary pl-4;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-dark">
+    <div class="container mx-auto px-4 py-8 max-w-5xl">
+        <!-- Header / Profile Section -->
+        <header class="bg-white rounded-2xl shadow-xl overflow-hidden mb-8">
+            <div class="md:flex">
+                <!-- Profile Image -->
+                <div class="md:w-1/3 bg-gradient-to-br from-primary to-secondary flex items-center justify-center p-6">
+                    <div class="relative">
+                        <img src="bdwi.jpg" alt="Ahmed El Badawi Mustafa" class="w-60 h-60 rounded-full object-cover border-4 border-white shadow-lg">
+                        <div class="absolute -bottom-2 -right-2 bg-white rounded-full p-2 shadow-md">
+                            <i class="fa fa-code text-primary text-2xl"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Profile Info -->
+                <div class="md:w-2/3 p-8">
+                    <h1 class="text-[clamp(1.8rem,3vw,2.8rem)] font-bold text-dark text-shadow mb-2">Ahmed El Badawi Mustafa</h1>
+                    <h2 class="text-xl text-primary font-semibold mb-4">Information Technology Specialist</h2>
+                    
+                    <div class="flex flex-wrap gap-4 mb-6">
+                        <div class="flex items-center gap-2">
+                            <i class="fa fa-map-marker text-primary"></i>
+                            <span>Doha, Qatar</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa fa-phone text-primary"></i>
+                            <a href="tel:+97470263865" class="hover:text-primary transition-colors">+974 7026 3865</a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Links -->
+                   <div class="flex flex-wrap gap-4 mb-6">
+     <!-- رابط الإيميل: يفتح برنامج الإيميل فوراً -->
+     <a href="mailto:bdwialshekh@gmail.com" class="flex items-center gap-2 bg-light hover:bg-primary hover:text-white px-4 py-2 rounded-lg transition-all shadow-sm">
+         <i class="fa fa-envelope"></i>
+         <span>bdwialshekh@gmail.com</span>
+     </a>
+     <!-- رابط الواتساب: يفتح الدردشة مباشرة -->
+     <a href="https://wa.me/97470263865" target="_blank" class="flex items-center gap-2 bg-light hover:bg-primary hover:text-white px-4 py-2 rounded-lg transition-all shadow-sm">
+         <i class="fa fa-whatsapp"></i>
+         <span>WhatsApp</span>
+     </a>
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="flex items-center gap-2 bg-light hover:bg-primary hover:text-white px-4 py-2 rounded-lg transition-all shadow-sm">
+                              <i class="fa fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+
+                    <p class="text-gray-700 leading-relaxed">
+                        Information Technology specialist with experience in technical support, networking, customer service, and sales. Demonstrates strong learning agility, creative thinking, and the ability to solve technical problems efficiently while maintaining effective customer relationships. Committed to continuous professional development and contributing to organizational success through the application of technical knowledge, practical experience, and a customer-focused approach.
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <div class="md:grid md:grid-cols-3 md:gap-8">
+            <!-- Left Column -->
+            <div class="md:col-span-1 space-y-8">
+                <!-- Skills Section -->
+                <section class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-bold text-dark section-border mb-4">Skills</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-center gap-2"><i class="fa fa-check-circle text-primary"></i> Fast learner & Adaptability</li>
+                        <li class="flex items-center gap-2"><i class="fa fa-check-circle text-primary"></i> Teamwork & Collaboration</li>
+                        <li class="flex items-center gap-2"><i class="fa fa-check-circle text-primary"></i> Advanced Computer Skills</li>
+                        <li class="flex items-center gap-2"><i class="fa fa-check-circle text-primary"></i> CCNA - Cisco Certified Network Associate</li>
+                        <li class="flex items-center gap-2"><i class="fa fa-check-circle text-primary"></i> IT Technical Support & Troubleshooting</li>
+                        <li class="flex items-center gap-2"><i class="fa fa-check-circle text-primary"></i> Network Installation & Maintenance</li>
+                        <li class="flex items-center gap-2"><i class="fa fa-check-circle text-primary"></i> Customer Service & Communication</li>
+                        <li class="flex items-center gap-2"><i class="fa fa-check-circle text-primary"></i> Valid Car Driving License</li>
+                    </ul>
+                </section>
+
+                <!-- Education Section -->
+                <section class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-bold text-dark section-border mb-4">Education</h3>
+                    <div class="mb-3">
+                        <h4 class="font-semibold text-lg"> Information Technology</h4>
+                        <p class="text-gray-600">Future University</p>
+                        <p class="text-sm text-gray-500">2021 – 2023</p>
+                    </div>
+                </section>
+
+                <!-- Certifications -->
+                <section class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-bold text-dark section-border mb-4">Certifications</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li><strong>CCNA</strong> - Cisco Certified Network Associate</li>
+                    </ul>
+                </section>
+            </div>
+
+            <!-- Right Column -->
+            <div class="md:col-span-2 space-y-8">
+                <!-- Professional Experience -->
+                <section class="bg-white p-6 rounded-xl shadow-md">
+                    <h3 class="text-xl font-bold text-dark section-border mb-6">Professional Experience</h3>
+
+                    <!-- Experience Item -->
+                    <div class="mb-6 pb-4 border-b border-gray-200 last:border-0 last:mb-0 last:pb-0">
+                           <h4 class="text-lg font-semibold text-primary">Receptionist</h4>
+                        <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                            <li>Welcomed clients and visitors, providing professional assistance and support.</li>
+                            <li>Managed appointments, schedules, and communication channels efficiently.</li>
+                            <li>Delivered high-quality customer service and maintained a positive customer experience.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6 pb-4 border-b border-gray-200 last:border-0 last:mb-0 last:pb-0">
+                        <h4 class="text-lg font-semibold text-primary">Assistant Network Engineer</h4>
+                        <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                            <li>Assisted in the installation, configuration, and maintenance of computer networks.</li>
+                            <li>Monitored network performance and addressed basic technical issues.</li>
+                            <li>Supported network infrastructure operations and troubleshooting activities.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6 pb-4 border-b border-gray-200 last:border-0 last:mb-0 last:pb-0">
+                        <h4 class="text-lg font-semibold text-primary">IT Support Specialist</h4>
+                        <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                            <li>Diagnosed and resolved technical issues for end users.</li>
+                            <li>Installed, configured, and maintained operating systems and software applications.</li>
+                            <li>Provided technical support for hardware, software, and network-related problems.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6 pb-4 border-b border-gray-200 last:border-0 last:mb-0 last:pb-0">
+                        <h4 class="text-lg font-semibold text-primary">Customer Service Representative</h4>
+                        <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                            <li>Responded to customer inquiries and resolved issues in a timely manner.</li>
+                            <li>Enhanced customer satisfaction through effective communication and problem-solving.</li>
+                            <li>Maintained positive relationships with customers and ensured service quality.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6 pb-4 border-b border-gray-200 last:border-0 last:mb-0 last:pb-0">
+                        <h4 class="text-lg font-semibold text-primary">Sales Representative</h4>
+                        <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                            <li>Promoted products and services to prospective and existing customers.</li>
+                            <li>Built and maintained strong customer relationships.</li>
+                            <li>Contributed to achieving sales targets and business objectives.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-6 pb-4 border-b border-gray-200 last:border-0 last:mb-0 last:pb-0">
+                        <h4 class="text-lg font-semibold text-primary">Storekeeper</h4>
+                        <ul class="list-disc list-inside text-gray-700 mt-2 space-y-1">
+                            <li>Managed inventory records and monitored stock levels accurately.</li>
+                            <li>Received, inspected, and organized incoming goods and materials.</li>
+                            <li>Coordinated stock distribution and maintained proper storage procedures.</li>
+                             <li>Conducted periodic inventory checks and prepared stock reports.</li>
+                            <li>Ensured the availability of materials and supplies to support operational needs.</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-500 text-sm mt-12">
+            <p>© 2026 Ahmed El Badawi Mustafa - IT Specialist | Doha, Qatar</p>
+        </footer>
+    </div>
+</body>
+</html>
